@@ -15,7 +15,7 @@ function setup() {
   carGroup1 = new Group();
   logGroup1 = new Group();
 
- player = new Player(width/2,height-75)
+ 
   
   //Grasses where player can rest
   for(var i=0;i<6;i++){
@@ -37,6 +37,8 @@ function setup() {
       log = new Log(-3);
       logGroup1.add(log.spt);
     }
+
+    player = new Player(width/2,height-75)
    
  }
 
